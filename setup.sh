@@ -9,4 +9,4 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 # echo "plugins=(git zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
-chsh -s /bin/zsh
+# chsh -s /bin/zsh
