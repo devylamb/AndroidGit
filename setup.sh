@@ -1,10 +1,14 @@
 #!/bin/bash
 
+mv ~/.bashrc ~/.bashrc.bak
+ln -s ~/storage/shared/AndroidGit/.bashrc ~/.bashrc
+chsh -s bash
+
 # apt install curl
 # apt install zsh
 # apt install vim
 
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+#sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 # bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -13,3 +17,4 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 # echo "plugins=(git zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 # chsh -s /bin/zsh
+
