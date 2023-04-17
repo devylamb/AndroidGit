@@ -14,6 +14,11 @@ export PATH=$PATH:~/.bashrc
 # make bash the default shell
 chsh -s bash
 
+OBS_REPO=Obsidian-notes
+SHARED='/data/data/com.termux/files/home/storage/shared/'
+cd $SHARED
+bash $SHARED/AndroidGit/.gitconfig.sh
+
 # apt install curl
 # apt install zsh
 # apt install vim
