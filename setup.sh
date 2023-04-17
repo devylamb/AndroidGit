@@ -8,6 +8,9 @@ fi
 # symlink bashrc
 ln -s ~/storage/shared/AndroidGit/.bashrc ~/.bashrc
 
+# add bashrc to path
+export PATH=$PATH:~/.bashrc
+
 # make bash the default shell
 chsh -s bash
 
