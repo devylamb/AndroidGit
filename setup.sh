@@ -1,7 +1,14 @@
 #!/bin/bash
 
-mv ~/.bashrc ~/.bashrc.bak
+# if bashrc is present make a backup of it
+if [ -f ~/.bashrc ]; then
+    mv ~/.bashrc ~/.bashrc.bak
+fi
+
+# symlink bashrc
 ln -s ~/storage/shared/AndroidGit/.bashrc ~/.bashrc
+
+# make bash the default shell
 chsh -s bash
 
 # apt install curl
