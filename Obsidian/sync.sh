@@ -5,5 +5,5 @@ cd $SHARED/$OBS_REPO
 
 git add **/*.md
 git commit -m "android on $(date)"
-git pull
-git push
+git pull origin master
+git push origin master
