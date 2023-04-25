@@ -12,3 +12,5 @@ alias ga='git add'
 alias gpl='git pull'
 alias gpu='git push'
 alias gplu='git pull --rebase'
+
+alias addmd='git add *.md && git commit -m "android $(date)"'
