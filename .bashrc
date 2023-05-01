@@ -15,3 +15,8 @@ alias gpu='git push'
 clone(){
     git clone git@github.com:AvishekShaw/"$@".git
 }
+
+exp(){
+	cd $SHARED/expense_tracker
+	python main.py "$@"
+}
