@@ -16,6 +16,8 @@ alias ga='git add'
 alias gpl='git pull'
 alias gpu='git push'
 
+alias expcat='cat $SHARED/expense_tracker/expenses_categories.py'
+
 clone(){
     git clone git@github.com:AvishekShaw/"$@".git
 }
