@@ -15,6 +15,7 @@ alias gc='git commit'
 alias ga='git add'
 alias gpl='git pull'
 alias gpu='git push'
+alias x='clear'
 
 alias expcat='cat $SHARED/expense_tracker/expenses_categories.py'
 
