@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # if bashrc is present make a backup of it
-if [ -f ~/.bashrc ]; then
-    mv ~/.bashrc ~/.bashrc.bak
+if [ -f $HOME/.bashrc ]; then
+    mv $HOME/.bashrc $HOME/.bashrc.bak
 fi
 
 # symlink bashrc
-ln -s ~/storage/shared/AndroidGit/.bashrc ~/.bashrc
+ln -s $HOME/storage/shared/AndroidGit/.bashrc $HOME/.bashrc
 
 # add bashrc to path
 export PATH=$PATH:~/.bashrc
@@ -15,7 +15,7 @@ export PATH=$PATH:~/.bashrc
 chsh -s bash
 
 OBS_REPO=Obsidian-notes
-SHARED='/data/data/com.termux/files/home/storage/shared/'
+SHARED=$HOME/storage/shared/
 cd $SHARED
 bash $SHARED/AndroidGit/.gitconfig.sh
 
